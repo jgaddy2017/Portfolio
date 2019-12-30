@@ -1,0 +1,204 @@
+
+
+html, body {
+    margin-top: -1%;
+    height: 100%;
+    padding: 0;
+}
+/* ---------------------------------- Header CSS ---------------------------------------------*/
+.namePlate{
+    text-align: center;
+}
+.quickLink{
+    font-size: 25px;
+    display: inline;
+    margin-left: auto;
+    padding: 4%;
+    text-decoration: underline;
+    
+}
+.headerDiv{
+    background-color: black;
+    color: white;
+    /*padding-bottom: 1%;*/
+    padding-top: 1%;
+    margin-top: 0;
+    /*min-height: 20%;*/
+    width: 100%;
+    /*position: fixed;*/
+    padding-bottom: 1%
+}
+.quickNav{
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0;
+    /*position: fixed;*/
+    background-color: black;
+    padding-top: 1%; 
+    padding-bottom: 1%;
+      
+}
+.afterQuickNav{
+    position: fixed;
+    top: 0;
+}
+
+
+/*---------------------------------------Sections CSS -------------------------------------------*/
+.duringSectionHeader{
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+.sectionHeader{
+    text-align: center;
+    width:100%;
+    text-decoration: underline;
+    font-size: 38px;
+    transition: all 0.4s ease;
+}
+.infoSection{
+    /*min-height: 100%;*/
+    
+    display: flex;
+    flex-flow: column;
+    height: 90%;
+
+}
+.sectionHeaderDiv{
+    display: flex;
+
+}
+
+
+/*---------------------------------------Individual Sections CSS -----------------------------------*/
+/*--------------------------Bio Section-------------------------*/
+#BioSection{
+    background-color: #5D5C61;
+}
+.JBioSection{
+    background-color:#5D5C61;
+    text-align: center;
+    /*width:100%;*/ 
+}
+.portfolioPicture{
+    width: 20%;
+    height: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 4px solid black;
+    border-radius: 5%;
+}
+.bioParagraph{
+    font-size: 20px;
+    border: 4px solid black;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:3%;
+}
+/*--------------------------Eduction Section-------------------------*/
+#EductionSection{
+    background-color: #379683;
+}
+.JEductionSection{
+    background-color:#379683;
+    text-align: center;
+}
+.eductionParagraph{
+    font-size: 20px;
+    border: 4px solid black;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:3%;
+}
+/*--------------------------Skill Section-----------------------------*/
+#SkillSection{
+    background-color: #7395AE;
+}
+.JSkillSection{
+    background-color:#7395AE;
+    text-align: center;
+}
+.skillRow{
+    width: 100%;
+    margin-bottom:5px;
+}
+.individualSkillDiv{
+    display: inline-block;
+    padding: 5%;
+    border: 4px solid black;
+    border-radius: 8px;
+    padding-top: 5px;
+    width: 20%;
+    margin-left: 2%
+}
+.individualSkillDiv:hover{
+    border: 4px solid white;
+    border-radius: 8px;
+}
+.individualSkillHeader{
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+.individualSkillParagraph{
+
+}
+
+/*--------------------------Work Section------------------------------*/
+#WorkSection{
+    background-color: #557A95;
+}
+.JWorkSection{
+    background-color:#557A95;
+    text-align: center;
+}
+.individualWorkDiv{
+
+}
+.individualWorkHeader{
+
+}
+.individualWorkParagraph{
+
+}
+/*--------------------------Project Section---------------------------*/
+#ProjectSection{
+    background-color: #B1A296;
+}
+.JProjectSection{
+    background-color:#B1A296;
+    text-align: center;
+}
+.individualProjectRow{
+
+}
+.individualProjectDiv{
+
+}
+.individualProjectHeader{
+
+}
+.individualProjectParagraph{
+
+}
+/*--------------------------Contact Section----------------------------*/
+#ContactSection{
+    background-color: white
+}
+.JContactSection{
+    background-color:white;
+    text-align: center;
+}
+
+
